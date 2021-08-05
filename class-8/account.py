@@ -17,4 +17,4 @@ class Account(CustomerImpl):
 
     def get_withdraw(self):
         total = self.__balance + self.__deposite - self.__withdraw
-        return  "Withdraw:", self.__withdraw, "Present balance", total
+        return  "Withdraw:", self.__withdraw, "Present balance:", total
